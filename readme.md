@@ -1,4 +1,4 @@
-##Time Marker Library##
+## Time Marker Library
 
 A time marker library is a simple tool for time measurements. Just init and mark
 in all places where you need.
