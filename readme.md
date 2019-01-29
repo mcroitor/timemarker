@@ -32,11 +32,7 @@ namespace mc{
         using clock = std::chrono::system_clock;
         using time_point = clock::time_point;
         using duration = clock::duration;
-    private:
-        std::vector<time_point> _markers;
-        std::vector<duration> _durations;
-        std::vector<std::string> _labels;
-    public:
+
         timemarker();
         virtual ~timemarker();
 
